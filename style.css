@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: hsl(218, 23%, 16%);
+    font-family: 'Manrope', sans-serif;
+    
+    
+}
+
+main {
+    max-width: 33.75rem;
+    margin: 5% auto 5rem auto;
+}
+
+.container {
+    position: relative;
+    margin: auto 1rem;
+    border-radius: 15px;
+    background-color: hsl(217, 19%, 24%);
+    text-align: center;
+    box-shadow: 30px 50px 80px rgba(0, 0, 0, 0.100202);
+}
+
+.advice-id {
+    color:hsl(150, 100%, 66%);
+    font-size: 0.813rem;
+    font-weight: 800;
+    letter-spacing: 4.08571px;
+    line-height: 18px;
+    padding-top: 3rem;
+}
+
+.advice-quote {
+    padding: 1.75rem 3rem;
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: hsl(193, 38%, 86%);
+}
+
+.divider {
+    background-image: url('./images/pattern-divider-mobile.svg');
+    background-repeat: no-repeat;
+    background-position: top center ;
+    height: 1rem;
+    padding-bottom: 4rem;
+}
+
+.dice-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+    width: 64px;
+    height: 64px;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+}
+
+.dice-btn:hover {
+    box-shadow: 0 0 50px hsl(150, 100%, 66%);
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    color: #fff;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  .divider {
+      background-image: url(images/pattern-divider-desktop.svg);
+      padding-bottom: 4.5rem;
+  }
+
+
+}
